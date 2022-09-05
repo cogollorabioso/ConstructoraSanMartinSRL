@@ -1,0 +1,25 @@
+
+$paletaColores:(
+"titulo": Red,
+"texto": purple,
+);
+
+
+$primary: rgb(10, 20,10); 
+
+
+
+@mixin nombremixin{  
+  color: $primary;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 60px;}
+
+.titulo {
+  @include nombremixin();
+
+  }
+
+
+
+

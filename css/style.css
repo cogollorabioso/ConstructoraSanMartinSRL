@@ -1,0 +1,153 @@
+.titulo {
+  color: rgb(10, 20, 10);
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+* {
+  margin: 5px;
+  padding: 5px;
+}
+
+/*.titulo{
+    background-color: greenyellow;
+}  
+
+.h4{
+    background-color: coral;
+}
+
+.noticia__titulo{
+color: red;
+}
+
+.noticia__parrafo {
+        background: goldenrod;
+        text-align: center;
+        border: black 5px solid;
+        grid-column-start: 1; 
+        grid-column-end: 5; 
+        grid-row-start: 1; 
+        grid-row-end: 3;
+      }*/
+.titulo {
+  background-color: greenyellow;
+}
+.titulo .h4 {
+  background-color: coral;
+}
+.titulo .h4 .noticia__titulo {
+  color: red;
+}
+.titulo .h4 .noticia__titulo .noticia__parrafo {
+  background: goldenrod;
+  text-align: center;
+  border: black 5px solid;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+/*.pro1{
+    height: 200px;
+}
+
+.pro2{
+    height: 200px;
+}
+
+.pro3{
+    height: 200px;
+}
+
+.pro4{
+    height: 200px;
+}
+
+.pro5{
+    height: 200px;
+}*/
+.pro1 {
+  height: 50px;
+}
+.pro1 .pro2 {
+  height: 50px;
+}
+.pro1 .pro2 .pro3 {
+  height: 50px;
+}
+.pro1 .pro2 .pro3 .pro4 {
+  height: 50px;
+}
+.pro1 .pro2 .pro3 .pro4 .pro5 {
+  height: 50px;
+}
+
+.titulo {
+  color: orange;
+  background-color: grey;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.titulo .subtitulo {
+  color: orange;
+  background-color: grey;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.subtitulo {
+  color: orange;
+  background-color: grey;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+body {
+  background-image: url(../images/ColorSolido.jpg);
+}
+
+/*ul li {
+    color: bisque;
+    display: inline-block;
+    position: sticky;
+    background-color: orange;
+ }*/
+ul {
+  color: bisque;
+  display: inline-block;
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: orange;
+}
+ul li {
+  color: bisque;
+  display: inline-block;
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: orange;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 100px 100px;
+  grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.Imageness {
+  width: 100%;
+  height: 100%;
+}
+
+.Contacto {
+  margin: 5px;
+  padding: 5px;
+}
+
+@media (max-width: 495px) {
+  #container {
+    width: 200px;
+    background-color: red;
+  }
+}/*# sourceMappingURL=style.css.map */
